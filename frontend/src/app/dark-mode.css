@@ -1,0 +1,117 @@
+/* ===== DARK MODE SPECIFIC STYLES ===== */
+
+/* Dark mode base styles */
+.dark {
+    color-scheme: dark;
+}
+
+/* Dark mode body and background */
+.dark body {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+.dark .bg-gray-50 {
+    background-color: #0f172a;
+}
+
+.dark .bg-gray-100 {
+    background-color: #334155;
+}
+
+.dark .bg-white {
+    background-color: #1e293b;
+}
+
+.dark .bg-gray-800 {
+    background-color: #1e293b;
+}
+
+.dark .bg-gray-900 {
+    background-color: #0f172a;
+}
+
+/* Dark mode text colors */
+.dark .text-gray-900 {
+    color: #f8fafc;
+}
+
+.dark .text-gray-700 {
+    color: #cbd5e1;
+}
+
+.dark .text-gray-600 {
+    color: #94a3b8;
+}
+
+.dark .text-gray-500 {
+    color: #64748b;
+}
+
+.dark .text-gray-400 {
+    color: #94a3b8;
+}
+
+.dark .text-gray-300 {
+    color: #cbd5e1;
+}
+
+.dark .text-white {
+    color: #ffffff;
+}
+
+/* Dark mode border colors */
+.dark .border-gray-200 {
+    border-color: #334155;
+}
+
+.dark .border-gray-300 {
+    border-color: #475569;
+}
+
+.dark .border-gray-600 {
+    border-color: #475569;
+}
+
+.dark .border-gray-700 {
+    border-color: #334155;
+}
+
+/* Dark mode hover states */
+.dark .hover\:bg-gray-200:hover {
+    background-color: #475569;
+}
+
+.dark .hover\:bg-gray-700:hover {
+    background-color: #475569;
+}
+
+.dark .hover\:bg-gray-800:hover {
+    background-color: #334155;
+}
+
+.dark .hover\:text-gray-300:hover {
+    color: #cbd5e1;
+}
+
+.dark .hover\:text-white:hover {
+    color: #ffffff;
+}
+
+/* Dark mode focus states */
+.dark .focus\:ring-primary:focus {
+    --tw-ring-color: #6366F1;
+}
+
+/* Dark mode shadows */
+.dark .shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.dark .shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dark .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}

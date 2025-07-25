@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import "./light-mode.css";
+@import "./dark-mode.css";
+@import "./components.css";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ===== CUSTOM COLOR VARIABLES ===== */
+:root {
+  --primary: #6366F1;
+  --secondary: #E0E7FF;
+  --accent: #14B8A6;
+  --accent-alt: #F59E0B;
+}
+
+/* ===== CUSTOM COLOR CLASSES ===== */
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.border-primary {
+  border-color: var(--primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+
+.text-accent {
+  color: var(--accent) !important;
+}
+
+.bg-accent-alt {
+  background-color: var(--accent-alt) !important;
+}
+
+.text-accent-alt {
+  color: var(--accent-alt) !important;
+}

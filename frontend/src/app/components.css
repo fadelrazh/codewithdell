@@ -1,0 +1,114 @@
+/* ===== COMPONENT-SPECIFIC STYLES ===== */
+
+/* Button Component */
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #5855eb;
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    color: #111827;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+    background-color: #c7d2fe;
+}
+
+/* Card Component */
+.card {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    transition: all 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.dark .card {
+    background-color: #1e293b;
+    border-color: #334155;
+}
+
+.dark .card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+/* Theme Toggle Component */
+.theme-toggle {
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    transition: all 0.2s;
+}
+
+.theme-toggle:hover {
+    background-color: #e5e7eb;
+}
+
+.dark .theme-toggle {
+    background-color: #334155;
+}
+
+.dark .theme-toggle:hover {
+    background-color: #475569;
+}
+
+/* Navigation Links */
+.nav-link {
+    color: #374151;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.dark .nav-link {
+    color: #cbd5e1;
+}
+
+.dark .nav-link:hover {
+    color: var(--primary);
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-icon {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
